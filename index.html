@@ -9,7 +9,29 @@ and open the template in the editor.
         <title>Singapore Food Guide</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" type="image/png" href="icon.png">
+        <style type="text/css">
+        html {
+            overflow: auto;
+        }
+          
+        html,
+        body,
+        div,
+        iframe {
+            margin: 0px;
+            padding: 0px;
+            height: 100%;
+            border: none;
+        }
+          
+        iframe {
+            display: block;
+            width: 100%;
+            border: none;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
+    </style>
     </head>
     <body>
         <iframe id="map" src="https://www.google.com/maps/d/embed?mid=1ZpkmynMZ7dXSZRXWA3K9ca69xXmG6Vs&ehbc=2E312F" allow="geolocation" scrolling="no" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
